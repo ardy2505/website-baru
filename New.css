@@ -1,0 +1,46 @@
+/* Gaya untuk konten utama */
+.content {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Tombol untuk menampilkan lebih banyak info */
+#showMoreBtn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#showMoreBtn:hover {
+    background-color: #2980b9;
+}
+
+/* Konten tambahan yang tersembunyi (secara default) */
+#moreInfo {
+    display: none;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Kelas tambahan untuk memperbesar konten */
+#moreInfo.large {
+    font-size: 1.5em;
+    padding: 30px;
+    /* Anda bisa menambahkan perubahan lain di sini, misalnya warna latar belakang */
+    background-color: #dfe6e9;
+}
